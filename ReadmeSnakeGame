@@ -1,0 +1,22 @@
+DESCRIPTION:- Step into a retro arcade adventure with this enhanced c++ console based snake game.It has some additional and advanced features including some speacial food which gives
+you extra points to beat the competetion Beyond the classic slithering challenge, discover the special food that boosts your score and power ups the speed, keeping the game intense and
+challenging, it also include bordered area which restrices and thrill tha game in a better way,this game blends with nostalgia with fresh and exiciting twists.
+
+FEATURES:- 
+1.Scoring-> Normal food('F') gives 10 points. Special food('S') gives 30 points. 
+2.Classic snake movements-> Move the snake using the 'W','A','S','D' keys. 
+3.Power-Ups Randomly spawn and provides speed deduction. Disappear after 10 seconds if not collected. 
+4.Game Over Conditions:- Colliding with the walls. Colliding with the snake's own body. 
+5.Custom speed controlling Snake slows down as the power ups are collected whereas continues in a normal speed when normal food or special food is picked. 
+6.Player profiles Players can login with their names and can have their seperate high score stored using file management concept.
+
+CONTOLLING:- W - Move Up A - Move Left S - Move Down D - Move Right X - Exit the game
+
+REQUIREMENTS:- C++ Compiler Linux/Windows Terminal
+
+GAME PREVIEW:- image
+
+FUTURE ENHANCEMENTS:- Adding poison to the game which on eating kills the snake.
+
+LICENSE:- This game is a open-source and free to use.
+

@@ -1,0 +1,76 @@
+Tetris Game
+
+Overview:-
+This Project is a C++ console based implementation of the classic Tetris game.It features all the standard Tetris mechanics,including tetrominoes, line clearing, scoring,
+and game-over conditions. The game is designed to be simple but engaging, with a smooth user experience. The player must arrange them to form complete lines to clear them 
+and earn points
+
+Features:-
+1.Tetromino Pieces: Includes all seven standard tetrominoes (I, O, T, S, Z, J, L).
+2.Grid Representation: The game board is a 10x20 grid.
+3.Piece Movement: Players can move left/right, rotate, and drop pieces.
+4.Gravity: Tetrominoes fall at a constant speed that increases as the game progresses.
+5.Collision Detection: Prevents blocks from overlapping or moving out of bounds.
+6.Line Clearing: Full rows are removed, and the grid shifts downward.
+7.Scoring System: Points are awarded for cleared lines (100 points per line).
+
+
+Controls:-
+(←): Move block left
+(→): Move block right
+(↓): Move block down faster
+(↑): Rotate peice
+Spacebar: Hard drop
+Escape: Pause or Quit
+
+Game Progression:-
+Speed increases after clearing a certain number of lines.
+Displays current score and level on-screen.
+Detects game-over when blocks reach the top of the grid.
+
+How to Play:-
+Run the executable file in a console window.
+Use the controls to manipulate tetrominoes and clear rows.
+Aim to maximize your score by clearing multiple rows simultaneously.
+If the blocks reach the top of the grid, the game ends. You can restart or exit.
+
+Technical details:-
+Programming concepts used(OOPS)-Classes and structs are used to manage tetrominoes and game logic.
+2D vectors for grid representation.
+Structs for tetromino shapes and positions.
+Real-Time Input Handling: Captures keyboard input using _kbhit() and _getch() functions for seamless gameplay.
+Collision Detection: Ensures pieces fit in the grid without overlapping or going out of bounds.
+
+Code Highlights:
+Tetromino Representation: Each tetromino is represented as a 2D vector with specific shapes.
+Game Loop: A continuous loop handles drawing, input processing, and gravity mechanics.
+Score Calculation:Points are awarded based on the number of cleared rows.
+Installation and Execution: Clone or download this repository to your local machine.
+
+🛠️ Installation & Usage
+
+Prerequisites:
+C++ compiler (GCC, Clang, or MSVC)
+conio.h (for Windows users)
+         
+Compilation:
+To compile the game, use the following command:
+ g++ -o tetris tetris.cpp -std=c++11
+         
+Running the Game:
+ ./tetris
+         
+For Windows users:
+ tetris.exe
+
+Future Improvements:
+Implement scoring system
+Add a more interactive UI
+Introduce different difficulty levels
+Add sound effects
+
+No support for advanced Tetris features like hold pieces or ghost pieces.
+Potential Enhancements:
+Add support for other platforms (Linux/macOS).
+Implement advanced mechanics such as hold functionality and ghost pieces.
+Add sound effects and animations for better user experience.

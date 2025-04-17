@@ -16,16 +16,12 @@ Aimed at students or developers learning object-oriented programming and file ma
 ## 🖼️ Interface Snapshots
 
 **📋 Main Menu (Alt Text):**  
-![image](https://github.com/user-attachments/assets/bdeb4031-3d06-4a2f-a6d4-35f406a9df34)
 Main interface showing role selection (Admin or User), login prompts, and navigation options for product, cart, and order management.
 
 **💼 Admin Dashboard (Alt Text):**  
-![image](https://github.com/user-attachments/assets/ca69a3af-9ba9-44b2-9a84-b03c3ef796b1)
 Console interface displaying admin functions like adding products, viewing orders, changing passwords, and checking site funds.
 
 **🛍️ User Menu (Alt Text):**  
-![image](https://github.com/user-attachments/assets/d30e0ed9-f0d0-445c-92ae-37feb6860e63)
-
 User screen with product listings, shopping cart access, and order history.
 
 ---
